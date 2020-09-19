@@ -3,8 +3,8 @@
 ## About
 
 Shopping cart where user can add/remove products using txt file. Only in console mode.
-Supported currencies `EUR`, `USD`, `GBP`
-Default currency `EUR`
+Supported currencies `EUR`, `USD`, `GBP`.
+Default currency `EUR`.
 
 ## Used technologies
 
@@ -18,8 +18,8 @@ Laravel 8.5.0
 
 ````
 cd console-shopping-cart
+```` 
 
-````   
 ### Install dependencies
 
 ````
@@ -40,7 +40,7 @@ php artisan key:generate
 
 ## Usage examples
 
-Enter all products into `products.txt` file in public folder. New product in each line. Product has 5 columns:
+Enter all products into `products.txt` file in `public` folder. New product in each line. Product has 5 columns:
 
 1. Unique product identifier
 2. Product name
@@ -50,7 +50,7 @@ Enter all products into `products.txt` file in public folder. New product in eac
 
 Columns are separated by `;` character.
 
-Launch console command
+Launch console command:
 ````
 php artisan product:import
 ````
